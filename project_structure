@@ -1,0 +1,21 @@
+selenium-shop-automation/
+├── README.md
+├── requirements.txt
+├── config/
+│   └── config.py
+├── pages/
+│   ├── __init__.py
+│   ├── base_page.py
+│   ├── home_page.py
+│   ├── login_page.py
+│   ├── register_page.py
+│   ├── product_page.py
+│   ├── cart_page.py
+│   └── checkout_page.py
+├── tests/
+│   ├── __init__.py
+│   ├── conftest.py
+│   └── test_e2e_flow.py
+└── utils/
+    ├── __init__.py
+    └── test_data.py 
